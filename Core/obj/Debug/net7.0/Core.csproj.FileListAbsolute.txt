@@ -1,0 +1,12 @@
+/Users/rafaeldias/Documents/dotnet/Core/bin/Debug/net7.0/Core.deps.json
+/Users/rafaeldias/Documents/dotnet/Core/bin/Debug/net7.0/Core.dll
+/Users/rafaeldias/Documents/dotnet/Core/bin/Debug/net7.0/Core.pdb
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/Core.csproj.AssemblyReference.cache
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/Core.AssemblyInfoInputs.cache
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/Core.AssemblyInfo.cs
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/Core.csproj.CoreCompileInputs.cache
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/Core.dll
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/refint/Core.dll
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/Core.pdb
+/Users/rafaeldias/Documents/dotnet/Core/obj/Debug/net7.0/ref/Core.dll
