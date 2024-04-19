@@ -7,5 +7,5 @@ public interface IClienteRepository {
     Cliente Create(Cliente novoCliente);
     Cliente BuscarPorId(Guid Id);
 
-    Boolean VerificarCpfExiste(String cpf);
+    Boolean VerificarCpfExistente(String cpf);
 }

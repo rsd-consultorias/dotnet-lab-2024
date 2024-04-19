@@ -24,7 +24,7 @@ public class ClienteRepository : IClienteRepository
         return clienteCriado.Entity;
     }
 
-    public bool VerificarCpfExiste(string cpf)
+    public bool VerificarCpfExistente(string cpf)
     {
         return dbContext.Clientes.Where(c => cpf.Equals(c.CPF)).Count() > 0;
     }

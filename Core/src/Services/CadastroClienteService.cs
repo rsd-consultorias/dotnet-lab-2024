@@ -22,7 +22,7 @@ public class CadastroClienteService
 
     public ServiceResponse<Cliente> CadastrarNovoClientePessoaFisica(PessoaFisica pessoaFisica)
     {
-        if (clienteRepository.VerificarCpfExiste(pessoaFisica.CPF))
+        if (clienteRepository.VerificarCpfExistente(pessoaFisica.CPF))
         {
             return new ServiceResponse<Cliente>("CLIENTE_JA_CADASTRADO");
         }
