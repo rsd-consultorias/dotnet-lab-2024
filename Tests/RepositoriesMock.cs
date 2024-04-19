@@ -5,7 +5,7 @@ namespace Tests;
 
 public class ClienteFactory : IClienteRepository
 {
-    private Dictionary<Guid, Cliente> clientes = new Dictionary<Guid, Cliente>();
+    private static Dictionary<Guid, Cliente> clientes = new Dictionary<Guid, Cliente>();
 
     public Cliente BuscarPorId(Guid id)
     {
@@ -22,6 +22,6 @@ public class ClienteFactory : IClienteRepository
 
     public bool VerificarCpfExiste(string cpf)
     {
-        return clientes.Where(c => cpf.Equals(c.Value.CPF)).Count() > 0;
+        return cpf != null ? clientes.Where(c => cpf.Equals(c.Value.CPF)).Count() > 0 : false;
     }
 }

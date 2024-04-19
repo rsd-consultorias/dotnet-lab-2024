@@ -35,7 +35,7 @@ public class Tests
         Assert.That(novoCliente?.Value, Is.Not.Null);
         
         callApi = await cadastrosController.CadastrarNovoClientePessoaFisica(pessoaFisica);
-        var naoCriarCliente = (callApi.Result as OkObjectResult)?.Value as ServiceResponse<Cliente>;
+        var naoCriarCliente = (callApi.Result as BadRequestObjectResult)?.Value as ServiceResponse<Cliente>;
         Assert.That(naoCriarCliente?.Error, Is.EqualTo("CLIENTE_JA_CADASTRADO"));
     }
 

@@ -26,7 +26,7 @@ public class CadastroClienteService
         {
             return new ServiceResponse<Cliente>("CLIENTE_JA_CADASTRADO");
         }
-        
+
         if (DateTime.Now.AddYears(-18).CompareTo(pessoaFisica.DataNascimento) < 0)
         {
             return new ServiceResponse<Cliente>("CLIENTE_DEVE_SER_MAIOR_18_ANOS");
